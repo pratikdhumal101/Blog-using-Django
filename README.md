@@ -17,12 +17,7 @@ Copy code
 virtualenv env
 source env/bin/activate  # On Mac/Linux
 env\Scripts\activate     # On Windows
-2. Clone Repository & Install Dependencies
-sh
-Copy code
-git clone https://github.com/shyam999/DjangoBlog.git
-cd DjangoBlog
-pip install -r requirements.txt
+2. pip install -r requirements.txt
 3. Migrate Database & Run Server
 sh
 Copy code
